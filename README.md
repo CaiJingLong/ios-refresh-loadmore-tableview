@@ -7,7 +7,9 @@ a simple refresh and loadmore tableview for swift
 only use UIRefreshControl and scroll observer to loadmore data
 
 ## usage
-see ViewController
+
+see ViewController 
+
 `ktableview.k_delegate = self`
 
 and
@@ -38,6 +40,8 @@ extension ViewController:KTableViewDelegate {
             }, onError: nil, onCompleted: nil, onDisposed: nil)
     }
 }
+```
+
 ```swift
 
 > view controll code 
