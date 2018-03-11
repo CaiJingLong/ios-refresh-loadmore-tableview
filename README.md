@@ -8,6 +8,12 @@ only use UIRefreshControl and scroll observer to loadmore data
 
 ## usage
 
+copy the KTableView.swift to your project
+
+only dependent UIKit
+
+min sdk is ios6
+
 see ViewController 
 
 `ktableview.k_delegate = self`
